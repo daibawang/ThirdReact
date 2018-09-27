@@ -13,7 +13,7 @@ import args from  "./utils/args.js";
 
 
 gulp.task("scripts",() => {
-  return gulp.src(["app/js/index.js"])
+  return gulp.src(["app/js/*.js"])
     .pipe(plumber({
       errorHandle:function(){
 
